@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Forms</h2>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+     
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role:</label>
+        <div>
+          <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="mail">Email:</label>
+        <div>
+             <input type="email" name="myEmail" id="mail">
+        </div>
+        <br>
+        
+        <div>
+            Are you above 18: <input type="checkbox">
+        </div>
+        <br>
+        <div>
+            Your breif intro: <textarea name="text1" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Preffered office car:</label>
+            <select name="cars" id="car">
+                <option value="a">Swift</option>
+                <option value="b">Ciaz</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
